@@ -27,7 +27,7 @@ public class HowToGetAllNews {
         //в фиде содержится коллекция FeedEntry, получим ее
         if (feed != null) {
             // к сожалению метод getEntries возвоащает коллекцию Object'ов
-            // поэтому возможно где то понадобится привидение
+            // поэтому возможно где то понадобится приведение
             List<SyndEntry> entries = feed.getEntries();
 
             // выведем у первой полученной новости заголовок и описание
@@ -53,7 +53,7 @@ public class HowToGetAllNews {
     }
 
     /**
-     * Получаем объект SyndFeed загружая rss из переданного url
+     * Получает объект SyndFeed загружая rss из переданного url
      *
      * @param url
      * @return SyndFeed - объект из пакета rome
