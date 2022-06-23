@@ -20,7 +20,6 @@ sources:
   agroinvestor: "https://www.agroinvestor.ru/feed/public-agronews.xml"
   moex: "https://www.moex.com/export/news.aspx?cat=100"
   russian_rt: "https://russian.rt.com/rss"
-  google: "https://news.google.com/rss?hl=ru&gl=RU&ceid=RU:ru"
   iz: "https://iz.ru/xml/rss/all.xml"
   rbc: "http://static.feed.rbc.ru/rbc/logical/footer/news.rss"
   nasa: "https://www.nasa.gov/rss/dyn/breaking_news.rss"
