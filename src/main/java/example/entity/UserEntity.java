@@ -8,6 +8,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
+/**
+ * Модель юзера для базы данных
+ */
 @Entity
 @Data
 @NoArgsConstructor
